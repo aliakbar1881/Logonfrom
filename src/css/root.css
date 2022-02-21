@@ -1,0 +1,45 @@
+* {
+    background-color: rgb(122, 175, 175);
+}
+
+div.App {
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(33, 118, 228, 0.808);
+    width: 70%;
+    height: 90%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+div>h3 {
+    display: inline-block;
+    width: 80%;
+    height: 10%;
+    border-left: solid rgb(214, 214, 214) 10px;
+    border-right: solid rgb(214, 214, 214) 10px;
+    border-bottom: dashed 2px white;
+    background-color: rgba(32, 113, 212, 0);
+    font-size: samll;
+    border-radius: 20px;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+    box-sizing: border-box;
+}
+
+div>h3::first-letter {
+    font-size:400%;
+}
+
+div#root {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
